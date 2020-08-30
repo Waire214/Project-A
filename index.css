@@ -1,0 +1,204 @@
+body{
+    /*height:100vh;*/
+    width:100vw;
+    /*overflow-y: hidden;*/
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(246, 241, 235);
+    height:100vh;
+}
+.image-background{
+    background-image: url("Images/pexels-pok-rie-139759.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    /*width: 100vw;*/
+    flex: 1;
+    text-align: end;
+    
+}
+.color-background{
+    background-color: rgba(241, 241, 234, 0.897);
+    height: 100%;
+    /*width: 100vw;*/
+    flex: 2;
+    text-align: justify;
+    overflow: scroll;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.logo-image{
+    margin-top:150px;
+    float:right;
+    margin-right: 100px;
+    background-color: lavender;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+.sidep{
+    
+    margin-top:30px;
+    float:right;
+    margin-right: 100px;
+    color: gray;
+    font-size: 25px;
+    /*text-align: end;*/
+}
+.contact-socialMedia1{
+    float: right;
+    margin-right: 100px;
+    margin-top:30px;
+}
+li{
+    display: inline-block;
+}
+li a{
+    text-decoration: none;
+    font-size: 30px;
+    color: green;
+}
+h1{
+    margin-left: 100px;
+    margin-top: 100px;
+    color: rgba(15, 15, 15, 0.603);
+}
+.mainboxp{
+    /*width:fit-content;*/
+    margin-top: 100px;
+    margin-left: 100px;
+    color: rgba(39, 38, 38, 0.705);
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.button{
+    background-color:rgb(248, 241, 231);
+    min-width: 200px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size:20px;
+    margin-left: 100px;
+    border-color: blanchedalmond;
+}
+.button:hover{
+    color: blue;
+    transform: scale(1.2);
+}
+hr{
+    margin: 100px 100px 100px 100px;
+    border-color: rgb(226, 219, 219);
+    border-style: ridge;
+    opacity:0.5;
+}
+.nextp{
+    margin-left: 100px;
+    color: rgba(39, 38, 38, 0.705);
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: initial;
+    margin-bottom: 30px;
+}
+main{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 1500px;
+    flex-wrap: wrap;
+    margin-left: 100px;
+}
+main div{
+    height: 300px;
+    background-color: rgb(28, 28, 29);
+    margin-right: 100px;
+    margin-bottom: 100px;
+    width:450px;
+    border-radius: 25px;
+}
+.button2{
+    background-color:rgb(248, 241, 231);
+    max-width: 200px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size:20px;
+    margin-left: 100px;
+    border-color: blanchedalmond;
+    opacity: 0.5;
+}
+.button2:hover{
+    color: blue;
+    transform: scale(1.2);
+}
+footer{
+    margin-left: 100px;
+}
+h2{
+    font-size: 35px;
+    color: rgba(15, 15, 15, 0.603);
+}
+.anothermainboxp{
+    color: rgba(39, 38, 38, 0.705);
+    font-size: 20px;
+    font-weight: 400;
+}
+.maindivinfooter{
+    display: flex;
+    flex-direction: row;
+    height: 600px;
+    
+}
+.name{
+    background-color: rgb(209, 208, 208);
+    height: 50px;
+    width: 300px;
+    font-size: 25px;
+    opacity: 0.6;
+    margin-right: 25px;
+    border: hidden;
+    margin-bottom: 25px;
+}
+.name2{
+    background-color: rgb(209, 208, 208);
+    height: 150px;
+    width: 650px;
+    font-size: 25px;
+    opacity: 0.6;
+    margin-right: 25px;
+    border: hidden;
+    margin-bottom: 25px;
+}
+.button3{
+    background-color: rgb(209, 208, 208);
+    max-width: 200px;
+    padding-top: 25px;
+    padding-bottom: 15px;
+    font-size:20px;
+    margin-right: 25px;
+    border: hidden;
+    opacity: 0.6;
+}
+.button3:hover{
+    color: blue;
+    transform: scale(1.2);
+}
+.theaddressdiv{
+    height: 300px;
+    
+    margin-left: 25px;
+    width: 500px;
+}
+address{
+    font-size: 25px;
+    font-style: normal;
+    color: rgb(167, 165, 165);
+}
+.addressp{
+    margin-bottom: 3px;
+}
+address a{
+    color: rgb(167, 165, 165);
+    font-size: 22px;
+}
